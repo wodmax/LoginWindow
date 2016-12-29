@@ -6,7 +6,9 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
-
+using Microsoft.Azure.Mobile;
+using Microsoft.Azure.Mobile.Analytics;
+using Microsoft.Azure.Mobile.Crashes;
 
 
 namespace LoginWindow.Droid
@@ -19,7 +21,11 @@ namespace LoginWindow.Droid
 			base.OnCreate (bundle);
 
 			global::Xamarin.Forms.Forms.Init (this, bundle);
-			LoadApplication (new LoginWindow.App ());
+
+            MobileCenter.Start("6015d142-0c2f-43fe-9bcb-f0adb43c24b7",
+                    typeof(Analytics), typeof(Crashes));
+
+            LoadApplication (new LoginWindow.App ());
 		}
 	}
 }

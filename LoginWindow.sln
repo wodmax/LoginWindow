@@ -13,6 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginWindow.UWP", "LoginWin
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		LoginWindow\LoginWindow.projitems*{2e4bb605-8ecc-48c3-bd1c-808d921e62da}*SharedItemsImports = 4
 		LoginWindow\LoginWindow.projitems*{5a8f67a6-7f3b-49ed-8a70-5e317815d549}*SharedItemsImports = 13
 		LoginWindow\LoginWindow.projitems*{74f249b1-126b-49c0-a0cf-34a73cf95bbf}*SharedItemsImports = 4
 		LoginWindow\LoginWindow.projitems*{fc6262c1-9980-46f7-8252-bac660c93a87}*SharedItemsImports = 4
